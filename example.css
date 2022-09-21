@@ -1,0 +1,289 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+body{
+	font-size: 14px;
+}
+.container-fluid{
+	width: 100%;
+}
+.container{
+	width: 90%;
+	margin:10px auto;
+}
+/*..............................................................layout*/
+.header{
+	width: 100%;
+	background: silver;
+	margin: 0;
+	position: fixed;
+	box-shadow: 2px 2px 5px gray;
+}
+.logo{
+	width: 30%;
+	float: left;
+	padding: 12px 35px;
+}
+.nav{
+	width: 60%;
+	float: right;
+	font-size: 17px;
+	padding: 30px 0;
+	text-align: center;
+	
+	
+}
+.nav li{
+	display: inline;
+	margin: 0 15px;
+
+}
+.nav li a{
+	text-decoration: none;
+	color: black;
+	
+}
+.nav li a:hover{
+	color: red;
+	text-decoration: underline;
+
+}
+/*...............................................................header*/
+.banner{
+	background: url(pexels-veeterzy-303383.jpg);
+	height: 650px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 100px;
+}
+.banner h1{
+	color: white;
+}
+.banner p{
+	font-size: 25px;
+	color: white;
+	margin: 25px 0;
+}
+.btn{
+	padding: 10px 20px;
+	background: navajowhite;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 20px 0;
+}
+.btn:hover{
+	background: whitesmoke;
+	color: dimgray;
+	text-decoration: underline;
+}
+/*..................................................about*/
+.resp1{
+	float: left;
+	padding: 10px 40px;
+}
+.resp1 i{
+	font-size: 60px;
+}
+#about p{
+	font-size: 20px;
+}
+#about h1{
+	margin: 20px 0;
+	font-size: 30px;
+	font-weight:inherit;
+}
+.pho img{
+	height: 350px;
+	width: 600px;
+	border-style: none;
+	border-radius: 10px;
+}
+
+.design h1{
+	font-size: 40px;
+	font-weight: normal;
+}
+.design p{
+	margin: 30px 0;
+}
+.btn2{
+	background: black;
+	color: white;
+	padding: 15px 25px;
+	text-decoration: none;
+}
+.btn2:hover{
+	background: hotpink;
+	color: black;
+}
+/*.................................................................Work*/
+
+.heading{
+	margin-bottom: 60px;
+}
+.heading h1{
+	font-size: 35px;
+}
+.heading p{
+	font-size: 18px;
+}
+.person1{
+	padding:;
+	width: 280px;
+	border:;
+	box-shadow: 1px 1px 5px 2px gray;
+	float: left;
+	margin: 0 auto;
+	line-height: 20px;
+}
+.profile img{
+	max-width: 100%;
+	height: 200px;
+}
+.team{
+	display: flex;
+}
+.content{
+	padding: 20px;
+}
+.content p{
+	margin: 20px 0;
+}
+.btn4{
+	padding: 5px 20px;
+	width: 100%;
+}
+/*............................................................team*/
+.col-1{
+	padding: 50px;
+	float: left;
+	width: 22.5%;
+	margin: 0 auto;
+	text-align: center;
+}
+.col-1 h1{
+	font-size: 45px;
+}
+.col-1 p{
+	font-size: 20px;
+}
+/*................................................................Counting*/
+.skill{
+	width: 50%;
+	float: left;
+	padding: 0px 35px;
+	line-height: 35px;
+}
+.skills{
+	width: 50%;
+	float: right;
+}
+.skills p{
+	margin: 20px 0;
+	font-size: 20px;
+}
+.skills .bg{
+	background: #91918e;
+	height: 25px;
+	width: 100%;
+}
+.bg1{
+	background: #52514e;
+	height: 25px;
+	width: 90%;
+	margin: 15px 0;
+}
+.bg2{
+	background: #52514e;
+	height: 25px;
+	width: 85%;
+	margin: 20px 0;
+}
+.bg3{
+	background: #52514e;
+	height: 25px;
+	width: 76%;
+	margin: 20px 0;
+}
+.bg1, .bg2, .bg3{
+	color: white;
+	font-size: 15px; 
+	text-align: center;
+	padding: 3px 0;
+}
+/*...................................................................progress bar*/
+.gallery-heading{
+	margin-bottom: 60px;
+}
+.gallery-heading h1{
+	font-size: 40px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.gallery-heading p{
+	word-spacing: 3px;
+	font-size: 20px;
+}
+.gallery img{
+	margin: 7px 7px;
+	height: 200px;
+}
+.gallery img:hover{
+	opacity: 0.6;
+}
+/*..........................................................gallery*/
+.list-column{width: 33%;
+	margin: 0 10px;
+	
+}
+.list-main{
+	display: flex;
+}
+.list-style{
+	background: whitesmoke;
+	list-style: none;
+
+}
+.list-style .list-head{
+	padding: 70px 0;
+}
+.list-style li{
+	border: 1px solid #ddd;
+	padding: 25px 0;
+}
+.btn5{
+	background: black;
+	padding: 15px 25px;
+	color: white;
+	text-decoration: none;
+}
+.btn5:hover{
+	background: gray;
+}
+/*.................................................................pricing*/
+
+
+form input{
+	width: 100%;
+	padding: 13px;
+	margin: 8px 0;
+	font-size: 15px;
+}
+.btn6{
+	margin: 10px 0;
+	padding: 10px 20px;
+	background: black;
+	color: white;
+}
+/*................................................................Contact form*/
+
+.btn7{
+	padding: 12px 20px;
+	background: White;
+	font-size: 20px;
+	text-decoration: none;
+
+}
